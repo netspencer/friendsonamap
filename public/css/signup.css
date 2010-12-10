@@ -1,0 +1,64 @@
+/* SIGNUP */
+
+div#signup {
+	position:relative;
+}
+
+div#signup h1.title {
+	font-family:'Helvetica Neue', Helvetica, sans-serif;
+	color:#00AC0C;
+	font-size:38px;
+	line-height:1.5;
+	margin-bottom:10px;
+}
+
+div#signup div.step {
+	margin-bottom:15px;
+}
+
+div#signup div.step div.title {
+	float:left;
+	width:100px;
+	font-family:'Helvetica Neue', Helvetica, sans-serif;
+	color:#666;
+	font-size:28px;
+}
+
+div#signup div.step div.content {
+	border:1px #00AC0C solid;
+	width:844px;
+	padding:10px;
+	float:left;
+}
+
+div#signup div.step div.content p.info {
+	font-family:'Helvetica Neue', Helvetica, sans-serif;
+	line-height:1.5;
+	color:#333;
+	margin-bottom:10px;
+}
+
+div#signup div.step div.content p.info span {
+	color:#ff2a09;
+	font-size:12px;
+}
+
+div#signup div.step div.content div.twitter_pair {
+	background:#EEE;
+	border:1px #CCC solid;
+	padding:10px;
+	display:inline-block;
+	/* rounded corners */
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	
+}
+
+div#signup div.step div.content div.twitter_pair span.username {
+	font-size:34px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	top:0;
+	position:relative;
+	color:#555;
+}

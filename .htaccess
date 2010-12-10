@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond $1 !^(index\.php|public|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
+AddHandler php5-script .php
